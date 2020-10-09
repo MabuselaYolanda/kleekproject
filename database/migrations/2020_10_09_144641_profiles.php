@@ -16,6 +16,7 @@ class Profiles extends Migration
         Schema::create('profiles', function (Blueprint $table) {
             $table->string('user')->unique();
             $table->string('avatar');
+            $table->string('identity_number')->unique();
             $table->string('address');
             $table->string('latitude');
             $table->string('longitude');

@@ -18,6 +18,7 @@ class Users extends Migration
             $table->string('name');
             $table->string('surname');
             $table->enum('role', ['Buyer', 'Business', 'Administrator', 'Potential', 'Employee'])->default('Buyer');
+            $table->string('password');
             $table->string('cellphone', 12)->unique();
             $table->timestamps();
         });
