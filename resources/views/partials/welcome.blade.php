@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Kleek">
-    <meta name="author" content="Kleek">
+    <meta name="description" content="{{ env('APP_NAME') }}">
+    <meta name="author" content="{{ env('APP_NAME') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Kleek | Business Automation Platform</title>
+    <title>{{ env('APP_NAME') }} | Business Automation Platform</title>
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/bootstrap.min.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/animate.min.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/owl.carousel.min.css') }}" type="text/css" media="all" />
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/flaticon.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/style.css') }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ asset('welcome/assets/css/responsive.css') }}" type="text/css" media="all" />
+
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
@@ -39,15 +40,7 @@
     </div>
 </div>
 @yield('content')
-<footer class="footer-bg">
-    <div class="container">
-        <div class="footer-lower">
-            <div class="footer-lower-item footer-copyright-text">
-                <p>Copyright ©2020 Design & Developed by the <a href="#" target="_blank">Kleek Team</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
+
 <script src="{{ asset('welcome/assets/js/jquery-3.5.1.min.js') }}"></script>
 <script src="{{ asset('welcome/assets/js/popper.min.js') }}"></script>
 <script src="{{ asset('welcome/assets/js/bootstrap.min.js') }}"></script>

@@ -1,464 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="417c4e4a-fc27-49d4-99a3-4a4459b1b78a" name="Default Changelist" comment="Added Welcome pages.">
-      <change afterPath="$PROJECT_DIR$/public/platform/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/batch-icons/fonts/batch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/batch-icons/fonts/batch.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/batch-icons/fonts/batch.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/batch-icons/fonts/batch.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/batch-icons/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dashicons/dashicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dashicons/dashicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dashicons/dashicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dashicons/dashicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dripicons/fonts/dripicons-v2.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dripicons/fonts/dripicons-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dripicons/fonts/dripicons-v2.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dripicons/fonts/dripicons-v2.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/dripicons/webfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.dev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/fonts/eightyshades.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/eightyshades/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/fonts/entypo.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/fonts/entypo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/fonts/entypo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/fonts/entypo.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/fonts/entypo.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/entypo/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/feather/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/foundation-icon-font/foundation-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/foundation-icon-font/foundation-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/foundation-icon-font/foundation-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/foundation-icon-font/foundation-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/foundation-icon-font/foundation-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/LigatureSymbols-2.11.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/LigatureSymbols-2.11.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/LigatureSymbols-2.11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/LigatureSymbols-2.11.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/LigatureSymbols-2.11.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/ligature-symbols/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/fonts/Metrize-Icons.dev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/fonts/Metrize-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/fonts/Metrize-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/fonts/Metrize-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/fonts/Metrize-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/metrize-icons/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-social/fonts/picons-social.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-social/fonts/picons-social.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-social/fonts/picons-social.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-social/fonts/picons-social.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-social/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-thin/fonts/piconsthin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-thin/fonts/piconsthin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-thin/fonts/piconsthin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-thin/fonts/piconsthin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/picons-thin/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/simple-line-icons/scss/simple-line-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/themefy/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/themefy/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/themefy/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/themefy/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/themefy/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/typicons/typicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/css/weather-icons-wind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/css/weather-icons-wind.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/css/weather-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/css/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/font/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/font/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/font/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/font/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/font/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-moon-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-wind-aliases.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-wind-degrees.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-classes/classes-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-beaufort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-day.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-direction.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-moon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-neutral.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-night.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/icon-variables/variables-wind-names.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/mappings/wi-forecast-io.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/mappings/wi-owm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/mappings/wi-wmo4680.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/mappings/wi-wunderground.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/mappings/wi-yahoo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons-classes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons-core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons-wind.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons-wind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons.min.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/icon_fonts_assets/weather-icons/sass/weather-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/avatar7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bg-pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bg-pattern2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/bigicon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/card1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/card2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/card3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/card4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/chart-donut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/company7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/cta-pattern-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/email-header-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/af.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/al.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/am.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/an.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/aq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/as.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/at.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/au.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/au2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/aw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/az.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/be.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/br.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/by.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/bz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/co.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/cz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/dj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/dk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/dm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/do.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/dz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/eg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/eh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/er.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/es.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/et.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gaza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/gy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/hk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/hn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ht.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/hu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/id.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/il.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/im.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/iq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/is.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/it.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/je.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/jm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/jo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/jp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ki.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/km.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/kz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/la.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/li.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/lv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/md.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/me.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/mz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/na.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ni.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/nl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/no.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/np.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/nr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/nu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/nz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/om.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/pw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/py.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/qa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/re.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/rs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/rw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/se.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/si.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/so.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/st.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/sz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/td.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/th.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/to.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/tz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/uk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/uy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/uz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/va.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/vc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/vi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/vn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/vu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/wf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ws.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/xk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/ye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/za.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/zm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/flags-icons/zw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/logo-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/market-google-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/market-ios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/menu_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/onboarding-gradient-hor-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/onboarding-gradient-hor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/onboarding-gradient-ver-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/onboarding-gradient-ver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/onboarding1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/path-profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/phone1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/plan1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/plan2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/plan3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/plan4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/portfolio9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/product_portfolio1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/profile_bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/property1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/property2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/property3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/social-icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/social-icons/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/social-icons/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/social-icons/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/img/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/js/demo_customizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/js/main_rentals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/platform/js/popup_chat_trigger_demo.js" afterDir="false" />
+    <list default="true" id="417c4e4a-fc27-49d4-99a3-4a4459b1b78a" name="Default Changelist" comment="Added Welcome pages..">
+      <change afterPath="$PROJECT_DIR$/resources/views/application/site/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/navbar_welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/platform/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/platform/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/welcome/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/welcome/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/application/user/authentication/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/application/user/authentication/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/application/user/authentication/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/application/user/authentication/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -601,6 +157,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kleek\resources\views\application" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\kleek\public\platform" />
       <recent name="C:\laragon\www\kleek\public\welcome" />
@@ -620,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602254175878</updated>
-      <workItem from="1602254176933" duration="8595000" />
+      <workItem from="1602254176933" duration="20450000" />
     </task>
     <task id="LOCAL-00001" summary="2nd initial commit">
       <created>1602257485309</created>
@@ -643,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602268256617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Welcome pages..">
+      <created>1602269545310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602269545310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +219,8 @@
     <MESSAGE value="2nd initial commit" />
     <MESSAGE value="Added Welcome pages" />
     <MESSAGE value="Added Welcome pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Welcome pages." />
+    <MESSAGE value="Added Welcome pages.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Welcome pages.." />
   </component>
   <component name="WindowStateProjectService">
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1602256507448">
@@ -664,13 +231,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602256517334" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602263089196">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602273737130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602263089196" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602268260326">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602273737130" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602269552340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602268260326" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602269552340" />
   </component>
 </project>

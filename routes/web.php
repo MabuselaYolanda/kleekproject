@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Web\AuthController;
+use App\Http\Controllers\Web\SiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [SiteController::class, 'index'])->name('home');
+Route::get('about', [SiteController::class, 'about'])->name('about');
+Route::get('contact-us', [SiteController::class, 'contact'])->name('contact');
+
+Route::group(['prefix' => 'auth', 'middleware' => ['guest']], static function(){
+    Route::get('login', [AuthController::class, 'login'])->name('login');
+    Route::get('register', [AuthController::class, 'register'])->name('register');
+    Route::get('profile', [AuthController::class, 'profile'])->name('profile');
 });
