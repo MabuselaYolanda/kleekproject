@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\AuthController;
 use App\Http\Controllers\Web\SiteController;
+use App\Http\Controllers\Web\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,8 @@ Route::group(['prefix' => 'auth', 'middleware' => ['guest']], static function(){
     Route::get('login', [AuthController::class, 'login'])->name('login');
     Route::get('register', [AuthController::class, 'register'])->name('register');
     Route::get('profile', [AuthController::class, 'profile'])->name('profile');
+});
+
+Route::group(['prefix' => 'platform', 'middleware' => ['guest']], static function(){
+    Route::get('home', [DashboardController::class, 'index'])->name('home');
 });

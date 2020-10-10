@@ -16,6 +16,13 @@
     <link href="{{ asset('platform/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css') }}" rel="stylesheet">
     <link href="{{ asset('platform/bower_components/slick-carousel/slick/slick.css') }}" rel="stylesheet">
     <link href="{{ asset('platform/css/main.css?version=4.5.0') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
+    <style>
+        /* override styles here */
+        .notie-container {
+            box-shadow: none;
+        }
+    </style>
     @livewireStyles
 </head>
     @yield('content')
@@ -50,6 +57,7 @@
 <script src="{{ asset('platform/bower_components/bootstrap/js/dist/popover.js') }}"></script>
 <script src="{{ asset('platform/js/demo_customizer.js?version=4.5.0') }}"></script>
 <script src="{{ asset('platform/js/main.js?version=4.5.0') }}"></script>
+<script src="https://unpkg.com/notie"></script>
 @livewireScripts
 </body>
 </html>
