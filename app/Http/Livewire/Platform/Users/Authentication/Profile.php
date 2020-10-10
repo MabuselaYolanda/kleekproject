@@ -7,6 +7,8 @@ use Livewire\Component;
 
 class Profile extends Component
 {
+    public $avatar;
+    public $
 
     public function submit(){
 

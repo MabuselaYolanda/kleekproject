@@ -2,6 +2,7 @@
 
 namespace App\Http\Traits;
 use Unirest;
+use Illuminate\Support\Facades\Cookie;
 
 
 trait Contactable{
@@ -17,7 +18,8 @@ trait Contactable{
 
         $token = $response->body;
 
-        cookie('contactable', $token->response_object->jwt_token, 30);
+
+        Cookie::queue('contactable', $token->response_object->jwt_token, 30);
     }
 
     public function verify_identity($id){
