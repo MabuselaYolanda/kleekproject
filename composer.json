@@ -15,7 +15,8 @@
         "inertiajs/inertia-laravel": "^0.2.15",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "livewire/livewire": "^2.2"
+        "livewire/livewire": "^2.2",
+        "mashape/unirest-php": "^3.0"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

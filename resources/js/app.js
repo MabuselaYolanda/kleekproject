@@ -1,3 +1,4 @@
 require('./bootstrap');
-var Turbolinks = require("turbolinks")
-Turbolinks.start()
+import * as FilePond from 'filepond';
+import 'filepond/dist/filepond.min.css';
+

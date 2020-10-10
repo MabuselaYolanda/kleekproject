@@ -11,13 +11,15 @@ class User extends Authenticatable
 {
     use HasFactory, Notifiable;
 
+    public $primaryKey = 'user';
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'role',
+        'user',
         'name',
         'surname',
         'cellphone',
@@ -34,4 +36,8 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function profile(){
+        return $this->hasOne(Profile::class, 'user', 'user');
+    }
 }

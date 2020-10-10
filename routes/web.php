@@ -20,12 +20,12 @@ Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('about', [SiteController::class, 'about'])->name('about');
 Route::get('contact-us', [SiteController::class, 'contact'])->name('contact');
 
-Route::group(['prefix' => 'auth', 'middleware' => ['guest']], static function(){
+Route::group(['prefix' => 'auth'], static function(){
     Route::get('login', [AuthController::class, 'login'])->name('login');
     Route::get('register', [AuthController::class, 'register'])->name('register');
-    Route::get('profile', [AuthController::class, 'profile'])->name('profile');
+    Route::get('profile', [AuthController::class, 'profile'])->name('enrol.profile');
 });
 
-Route::group(['prefix' => 'platform', 'middleware' => ['guest']], static function(){
-    Route::get('home', [DashboardController::class, 'index'])->name('home');
+Route::group(['prefix' => 'platform', 'middleware' => ['auth', 'profile']], static function(){
+    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
