@@ -194,7 +194,7 @@
                             @foreach($Businesses as $business)
                                 <tr>
                                     <td class="nowrap">
-                                        <span>{{ $business->business }}</span>
+                                        <span><a href="{{ route('view.business', $business->business) }}">{{ $business->business }}</a></span>
                                     </td>
                                     <td>
                                         <span>{{ $business->name }}</span>
@@ -203,7 +203,7 @@
                                         <span>{{ $business->type }}</span>
                                     </td>
                                     <td>
-                                        <span>{{ $business->type }}</span>
+                                        <span>{{ $business->about }}</span>
                                     </td>
                                 </tr>
                             @endforeach

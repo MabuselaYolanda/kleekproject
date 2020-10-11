@@ -7,6 +7,10 @@
     </div>
     <div class="form-group">
         <label for=""> Name of Business</label><input class="form-control" wire:model="name" placeholder="Enter your business name" type="text">
+
+        @error('name')
+        <span class="text-danger">{{ $message }}</span>
+        @enderror
     </div>
 
     <div class="form-group">
@@ -30,9 +34,16 @@
                 Catering Business
             </option>
         </select>
+        @error('type')
+        <span class="text-danger">{{ $message }}</span>
+        @enderror
     </div>
     <div class="form-group">
         <label for=""> Established</label><input wire:model="established" class="form-control" placeholder="When was your business established" type="text">
+
+        @error('established')
+        <span class="text-danger">{{ $message }}</span>
+        @enderror
     </div>
 
     <fieldset class="form-group">
@@ -40,6 +51,9 @@
 
         <div class="form-group">
             <label> About Your Business</label><textarea wire:model="about" class="form-control" rows="3"></textarea>
+            @error('about')
+            <span class="text-danger">{{ $message }}</span>
+            @enderror
         </div>
     </fieldset>
     <div class="form-buttons-w">

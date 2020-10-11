@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Business;
 
 class Bushido extends Component
@@ -22,6 +23,18 @@ class Bushido extends Component
             'established' => 'required',
             'about' => 'required'
         ]);
+
+        Business::create([
+            'business' => Str::orderedUuid(),
+            'user' => Auth::user()->user,
+            'name' => $this->name,
+            'type' => $this->type,
+            'funded' => $this->established,
+            'about' => $this->about
+        ]);
+
+        return redirect(route('dashboard'));
+
     }
     public function render()
     {

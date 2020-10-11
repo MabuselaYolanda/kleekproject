@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\AuthController;
 use App\Http\Controllers\Web\SiteController;
 use App\Http\Controllers\Web\DashboardController;
+use App\Http\Controllers\Web\BusinessController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,4 +30,6 @@ Route::group(['prefix' => 'auth'], static function(){
 Route::group(['prefix' => 'platform', 'middleware' => ['auth', 'profile']], static function(){
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('create-business', [DashboardController::class, 'business'])->name('create.business');
+
+    Route::get('business/{uuid}', [BusinessController::class, 'index'])->name('view.business');
 });

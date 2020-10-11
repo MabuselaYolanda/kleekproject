@@ -20,19 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="417c4e4a-fc27-49d4-99a3-4a4459b1b78a" name="Default Changelist" comment="Added Contactable.php">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Bushido.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Online.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Temp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/TempCost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/dashboard/business.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/business.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/online.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/temp-cost.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/temp.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/BusinessController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/dashboard/business/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/dashboard/employee.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/employee.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Web/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Bushido.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Bushido.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/application/platform/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/application/platform/dashboard/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/navbar_app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/navbar_app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/business.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/business.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +211,7 @@
       <workItem from="1602254176933" duration="21342000" />
       <workItem from="1602324489654" duration="3141000" />
       <workItem from="1602348196500" duration="12805000" />
-      <workItem from="1602364236287" duration="22170000" />
+      <workItem from="1602364236287" duration="28723000" />
     </task>
     <task id="LOCAL-00001" summary="2nd initial commit">
       <created>1602257485309</created>
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602400322468</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Contactable.php">
+      <created>1602404666310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602404666310</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +313,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added Contactable.php" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602409634153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602409634153" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1602256507448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -316,20 +325,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602256517334" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602402383437">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602409122448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602374966575" />
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602402383437" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602409122448" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602363822266" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602400324451">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602404668730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602404668730" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602400324451" />
     <state x="828" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602286871158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602286871158" />
+    <state x="-1619" y="0" width="1392" height="1027" key="dock-window-1" timestamp="1602405594509">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1619" y="0" width="1392" height="1027" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602405594509" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1602361629597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
