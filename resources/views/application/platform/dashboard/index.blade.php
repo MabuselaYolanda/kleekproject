@@ -43,26 +43,21 @@
                                                         {{ count($Businesses) }}
                                                     </div>
                                                     <div class="label">
-                                                        Products Sold
+                                                        Businesses Registered
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6 b-b">
-                                                <div class="el-tablo centered padded">
-                                                    <div class="value">
-                                                        47.5K
-                                                    </div>
-                                                    <div class="label">
-                                                        Users Online
-                                                    </div>
-                                                </div>
+
+                                                <livewire:online>
+
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-6 b-r">
                                                 <div class="el-tablo centered padded">
                                                     <div class="value">
-                                                        $95
+                                                        5
                                                     </div>
                                                     <div class="label">
                                                         Possible Temporary Staff
@@ -75,7 +70,7 @@
                                                         12
                                                     </div>
                                                     <div class="label">
-                                                        Products
+                                                        Possible Temporary Staff Cost
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,6 +158,57 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="element-wrapper">
+                    <h6 class="element-header">
+                        Your Registered Businesses
+                    </h6>
+                    <div class="col-sm-6">
+                        <a class="btn btn-sm btn-secondary" href="{{ route('create.business') }}">Create Business</a>
+                    </div>
+                    <div class="element-box-tp">
+                        <div class="table-responsive">
+                            <table class="table table-padded">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        Name
+                                    </th>
+                                    <th>
+                                        Type
+                                    </th>
+                                    <th class="text-center">
+                                        About
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                            @foreach($Businesses as $business)
+                                <tr>
+                                    <td class="nowrap">
+                                        <span>{{ $business->business }}</span>
+                                    </td>
+                                    <td>
+                                        <span>{{ $business->name }}</span>
+                                    </td>
+                                    <td >
+                                        <span>{{ $business->type }}</span>
+                                    </td>
+                                    <td>
+                                        <span>{{ $business->type }}</span>
+                                    </td>
+                                </tr>
+                            @endforeach
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

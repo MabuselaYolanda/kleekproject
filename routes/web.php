@@ -28,4 +28,5 @@ Route::group(['prefix' => 'auth'], static function(){
 
 Route::group(['prefix' => 'platform', 'middleware' => ['auth', 'profile']], static function(){
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('create-business', [DashboardController::class, 'business'])->name('create.business');
 });

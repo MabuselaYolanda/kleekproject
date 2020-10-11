@@ -36,7 +36,7 @@
                 -------------------->
                 <ul class="main-menu">
                     <li class="has-sub-menu">
-                        <a href="index.html">
+                        <a href="{{ route('dashboard') }}">
                             <div class="icon-w">
                                 <div class="os-icon os-icon-layout"></div>
                             </div>
@@ -66,7 +66,7 @@
         -------------------->
         <div class="menu-w color-scheme-dark color-style-bright menu-position-side menu-side-left menu-layout-mini sub-menu-style-over sub-menu-color-bright selected-menu-color-light menu-activated-on-hover menu-has-selected-link">
             <div class="logo-w">
-                <a class="logo" href="index.html">
+                <a class="logo" href="{{ route('dashboard') }}">
                     <div class="logo-element"></div>
                     <div class="logo-label">
                         Kleek

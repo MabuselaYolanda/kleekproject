@@ -16,6 +16,14 @@ class DashboardController extends Controller
 
         $profile = User::find(Auth::user()->user)->profile;
         $businesses = Business::where('user', Auth::user()->user)->get();
-        return view('application.platform.dashboard.index')->with('profile', $profile);
+        return view('application.platform.dashboard.index')->with('profile', $profile)
+            ->with('Businesses', $businesses);
+    }
+
+    public function business(){
+        $profile = User::find(Auth::user()->user)->profile;
+        $businesses = Business::where('user', Auth::user()->user)->get();
+        return view('application.platform.dashboard.business')->with('profile', $profile)
+            ->with('Businesses', $businesses);
     }
 }
