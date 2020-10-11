@@ -20,8 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="417c4e4a-fc27-49d4-99a3-4a4459b1b78a" name="Default Changelist" comment="Added Contactable.php">
+      <change afterPath="$PROJECT_DIR$/app/Models/Business.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Employees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/geocoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_032331_businesses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_034343_business_employees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_084416_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_090111_orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/dashboard/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/users/authentication/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/users/authentication/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/application/platform/users/authentication/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/platform/dashboard/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/navbar_app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kleek.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kleek.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Web/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Platform/Users/Authentication/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Platform/Users/Authentication/Profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Traits/Contactable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/Contactable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Traits/Momo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/Momo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/platform/users/authentication/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/platform/users/authentication/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +177,9 @@
       <path value="$PROJECT_DIR$/vendor/inertiajs/inertia-laravel" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/vendor/mashape/unirest-php" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/laravolt/avatar" />
+      <path value="$PROJECT_DIR$/vendor/spatie/geocoder" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ie3Le5jNLb7wv9PLK8ruA0hE1G" />
@@ -168,16 +194,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/livewire" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\kleek\resources\views\application" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kleek\resources\views\livewire" />
       <recent name="C:\laragon\www\kleek\public\platform" />
       <recent name="C:\laragon\www\kleek\public\welcome" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kleek\resources\views\application" />
     </key>
   </component>
   <component name="RunManager">
@@ -197,7 +224,7 @@
       <workItem from="1602254176933" duration="21342000" />
       <workItem from="1602324489654" duration="3141000" />
       <workItem from="1602348196500" duration="12805000" />
-      <workItem from="1602364236287" duration="1127000" />
+      <workItem from="1602364236287" duration="18118000" />
     </task>
     <task id="LOCAL-00001" summary="2nd initial commit">
       <created>1602257485309</created>
@@ -248,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602365255142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Contactable.php">
+      <created>1602365519957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602365519957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,9 +320,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602256517334" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602363822266">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602379475996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1126" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602374966575" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602379475996" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602363822266" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602365259284">
       <screen x="0" y="0" width="1920" height="1040" />
